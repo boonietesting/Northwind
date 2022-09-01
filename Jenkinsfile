@@ -7,9 +7,11 @@ pipeline {
       }
     }
 
-    stage('Database Masking') {
+    stage('Setting the variables values') {
       steps {
-        sh 'curl --location --request GET \'https://partner.testinsights.io/api/apikey/e2Ep6tf9uAnutPyp2kfONK63N/job/137094\''
+         sh '''#!/bin/bash
+                 echo "hello world" 
+         '''
       }
     }
 
