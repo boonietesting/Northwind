@@ -1,19 +1,20 @@
 pipeline {
-  agent any
-  stages {
-    stage('Git') {
-      steps {
-        git(url: 'https://github.com/boonietesting/Northwind', branch: 'main', poll: true)
-      }
-    }
+    agent none
 
-    stage('Setting the variables values') {
-      steps {
-         sh '''#!/bin/bash
-                 echo "hello world" 
-         '''
-      }
-    }
+    stages {
 
-  }
+        stage ('Hello') {
+            agent any
+
+            steps {
+                echo 'Hello, '
+
+                sh '''#!/bin/bash
+
+                    echo "Hello from bash"
+                    echo "Who I'm $SHELL"
+                '''
+            }
+        }
+    }
 }
