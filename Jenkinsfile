@@ -1,15 +1,45 @@
 pipeline {
   agent any
   stages {
-    stage('Git') {
-      steps {
-        git(url: 'https://github.com/boonietesting/Northwind', branch: 'main', poll: true)
+    stage('Build') {
+      parallel {
+        stage('Build') {
+          steps {
+            git(url: 'https://github.com/boonietesting/Northwind', branch: 'main', poll: true)
+          }
+        }
+
+        stage('Build Jar') {
+          steps {
+            echo 'Build Jar'
+          }
+        }
+
       }
     }
 
-    stage('Database Masking') {
+    stage('Test') {
+      parallel {
+        stage('Test') {
+          steps {
+            sleep 2
+          }
+        }
+
+        stage('') {
+          steps {
+            echo 'Northwind DB'
+          }
+        }
+
+      }
+    }
+
+    stage('Deploy') {
       steps {
-        sh 'curl --location --request GET \'https://partner.testinsights.io/api/apikey/e2Ep6tf9uAnutPyp2kfONK63N/job/137094\''
+        echo 'Deploying'
+        sleep 3
+        echo 'Deployed'
       }
     }
 
