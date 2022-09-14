@@ -17,7 +17,7 @@ import org.springframework.data.domain.Pageable;
 import utilities.ConnectionManager;
 import utilities.PropertiesLoader;
 
-//import java.io.FileNotFoundException;
+import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.sql.*;
@@ -25,7 +25,7 @@ import java.util.*;
 
 public class TestDataActions extends BasePage
 {
-   // @Ignore
+  //  @Ignore
     public TestDataActions(AppiumDriver driver) {
         super(driver);
     }

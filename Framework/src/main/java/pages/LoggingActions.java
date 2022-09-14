@@ -4,7 +4,7 @@ import io.appium.java_client.AppiumDriver;
 //import jdk.nashorn.internal.ir.annotations.Ignore;
 
 public class LoggingActions extends BasePage {
- //   @Ignore
+   // @Ignore
     public LoggingActions(AppiumDriver driver) {
         super(driver);
     }

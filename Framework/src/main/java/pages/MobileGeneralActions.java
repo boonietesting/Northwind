@@ -24,7 +24,7 @@ import utilities.CapabilityLoader;
 import java.time.Duration;
 
 public class MobileGeneralActions extends BasePage {
-    //@Ignore
+   // @Ignore
     public MobileGeneralActions(AppiumDriver driver) {
         super(driver);
     }
