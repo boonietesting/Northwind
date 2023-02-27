@@ -40,7 +40,7 @@ public class RegisterPet_DefaultProfile extends TestBase
         
            pages.Post_addPet _Post_addPet = new pages.Post_addPet(getDriver());
     TestModellerLogger.SetLastNodeGuid("98a95b30-3812-4d2e-9884-17a2f3073b08");
-    _Post_addPet.Post_addPet_405("sit","velit","","","");
+    _Post_addPet.Post_addPet_405("illum","veritatis","","","");
 
     }
 
@@ -51,7 +51,7 @@ public class RegisterPet_DefaultProfile extends TestBase
         
            pages.Post_addPet _Post_addPet = new pages.Post_addPet(getDriver());
     TestModellerLogger.SetLastNodeGuid("98a95b30-3812-4d2e-9884-17a2f3073b08");
-    _Post_addPet.Post_addPet_405("officiis","accusamus","#!_ @","","");
+    _Post_addPet.Post_addPet_405("nesciunt","in","#!_ @","","");
 
     }
 
@@ -62,7 +62,7 @@ public class RegisterPet_DefaultProfile extends TestBase
         
            pages.Post_addPet _Post_addPet = new pages.Post_addPet(getDriver());
     TestModellerLogger.SetLastNodeGuid("98a95b30-3812-4d2e-9884-17a2f3073b08");
-    _Post_addPet.Post_addPet_405("incidunt","et","http://myrtle.org","389348","");
+    _Post_addPet.Post_addPet_405("ipsam","voluptatem","https://lorna.com","389348","");
 
     }
 
@@ -73,7 +73,7 @@ public class RegisterPet_DefaultProfile extends TestBase
         
            pages.Post_addPet _Post_addPet = new pages.Post_addPet(getDriver());
     TestModellerLogger.SetLastNodeGuid("8d4bd0ac-c896-41c4-8e9d-1592c8985ecd");
-    _Post_addPet.Post_addPet_405("atque","velit","https://armando.biz","rerum","available");
+    _Post_addPet.Post_addPet_405("dignissimos","perferendis","http://liliane.org","quis","available");
 
     }
 
@@ -84,7 +84,7 @@ public class RegisterPet_DefaultProfile extends TestBase
         
            pages.Post_addPet _Post_addPet = new pages.Post_addPet(getDriver());
     TestModellerLogger.SetLastNodeGuid("8d4bd0ac-c896-41c4-8e9d-1592c8985ecd");
-    _Post_addPet.Post_addPet_405("dolorem","sed","https://ayden.biz","qui","pending");
+    _Post_addPet.Post_addPet_405("velit","explicabo","https://lewis.com","provident","pending");
 
     }
 
@@ -95,7 +95,7 @@ public class RegisterPet_DefaultProfile extends TestBase
         
            pages.Post_addPet _Post_addPet = new pages.Post_addPet(getDriver());
     TestModellerLogger.SetLastNodeGuid("8d4bd0ac-c896-41c4-8e9d-1592c8985ecd");
-    _Post_addPet.Post_addPet_405("veniam","soluta","http://albert.info","porro","sold");
+    _Post_addPet.Post_addPet_405("reiciendis","porro","https://adolphus.net","mollitia","sold");
 
     }
 
@@ -106,7 +106,7 @@ public class RegisterPet_DefaultProfile extends TestBase
         
            pages.Post_addPet _Post_addPet = new pages.Post_addPet(getDriver());
     TestModellerLogger.SetLastNodeGuid("98a95b30-3812-4d2e-9884-17a2f3073b08");
-    _Post_addPet.Post_addPet_405("et","389348","","","");
+    _Post_addPet.Post_addPet_405("occaecati","389348","","","");
 
     }
 
