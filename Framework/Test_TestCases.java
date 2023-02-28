@@ -40,7 +40,7 @@ public class Test_TestCases extends TestBase
         
            pages.Get_loginUser _Get_loginUser = new pages.Get_loginUser(getDriver());
     TestModellerLogger.SetLastNodeGuid("c72c1c01-c5af-4f41-9cf2-32513adcd408");
-    _Get_loginUser.Get_loginUser_200("Jaren.Dickens","#!_ @");
+    _Get_loginUser.Get_loginUser_200("Dwight_McClure","#!_ @");
 
     }
 
@@ -51,7 +51,7 @@ public class Test_TestCases extends TestBase
         
            pages.Get_loginUser _Get_loginUser = new pages.Get_loginUser(getDriver());
     TestModellerLogger.SetLastNodeGuid("6e564e44-59d3-4ca7-b909-c9fd6c994e28");
-    _Get_loginUser.Get_loginUser_200("Vena.Smitham71","PJVoTrv69x");
+    _Get_loginUser.Get_loginUser_200("Vernice.Jacobson72","TwbsnK2ZSl");
 
     }
 
