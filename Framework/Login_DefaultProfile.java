@@ -29,7 +29,7 @@ public class Login_DefaultProfile extends TestBase
         
            pages.Get_loginUser _Get_loginUser = new pages.Get_loginUser(getDriver());
     TestModellerLogger.SetLastNodeGuid("49f58e82-633e-4db5-a115-4e9f38fbc281");
-    _Get_loginUser.Get_loginUser_200("Elwyn.DAmore17","#!_ @");
+    _Get_loginUser.Get_loginUser_200("Rhea32","#!_ @");
 
     }
 
@@ -40,7 +40,7 @@ public class Login_DefaultProfile extends TestBase
         
            pages.Get_loginUser _Get_loginUser = new pages.Get_loginUser(getDriver());
     TestModellerLogger.SetLastNodeGuid("193e2cde-9511-4d76-a63e-95b95f731e3c");
-    _Get_loginUser.Get_loginUser_200("Ofelia66","gbH9zDAZZY");
+    _Get_loginUser.Get_loginUser_200("Jake28","Xc_HO8pq5I");
 
     }
 
