@@ -16,36 +16,36 @@ import io.restassured.RestAssured;
 
 //https://riley.partner.testinsights.io/app/#!/model-engine/guid/fd4e39d4-dacf-4492-9eb7-ad8e25cbcc58
 @Listeners({TestNGListener.class, ExtentTestListener.class})
-@TestModellerSuite(id = 235, profileId = 100332)
+@TestModellerSuite(id = 236, profileId = 100332)
 public class Login_DefaultProfile extends TestBase
 {
     
 
     
     @Test  (groups= {"Login","Login - Default Profile"})
-    @TestModellerPath(guid = "415c1bf9-66c5-4600-9a36-2560cfd9fea8")
+    @TestModellerPath(guid = "90e96130-e9ed-45c4-8351-a5a742bb604a")
     public void Negativesuccessfuloperation200Failure()
     {
         
            pages.Get_loginUser _Get_loginUser = new pages.Get_loginUser(getDriver());
     TestModellerLogger.SetLastNodeGuid("49f58e82-633e-4db5-a115-4e9f38fbc281");
-    _Get_loginUser.Get_loginUser_200("Rhea32","#!_ @");
+    _Get_loginUser.Get_loginUser_200("Ben","#!_ @");
 
     }
 
     @Test  (groups= {"Login","Login - Default Profile"})
-    @TestModellerPath(guid = "6f616c1d-b723-4214-9d3f-b99836916639")
+    @TestModellerPath(guid = "8bd3597c-caaa-4f0d-96a6-fc4cf496fbb0")
     public void Positivesuccessfuloperation200Success()
     {
         
            pages.Get_loginUser _Get_loginUser = new pages.Get_loginUser(getDriver());
     TestModellerLogger.SetLastNodeGuid("193e2cde-9511-4d76-a63e-95b95f731e3c");
-    _Get_loginUser.Get_loginUser_200("Jake28","Xc_HO8pq5I");
+    _Get_loginUser.Get_loginUser_200("Ben","Rvztt7bWKI");
 
     }
 
     @Test  (groups= {"Login","Login - Default Profile"})
-    @TestModellerPath(guid = "ce11726a-5b00-41fd-b6ac-067553271fc8")
+    @TestModellerPath(guid = "42f2e76a-c2cc-4aa3-9019-14902f8c63cf")
     public void Negativesuccessfuloperation200Failure1()
     {
         
